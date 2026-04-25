@@ -1,10 +1,6 @@
 streamlit
-# Utilise tensorflow-cpu au lieu de tensorflow
-tensorflow-cpu==2.15.0
-# Fixe une version spécifique pour xgboost pour faciliter l'installation
-xgboost==1.7.6
-# Ajoute les autres dépendances nécessaires
+joblib
 pandas
 numpy
 scikit-learn
-joblib
+xgboost
