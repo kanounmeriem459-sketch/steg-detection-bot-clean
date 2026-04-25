@@ -1,0 +1,6 @@
+{
+  "python": "unknown",
+  "tensorflow": "2.19.0",
+  "xgboost": "3.2.0",
+  "scikit_learn": "1.6.1"
+}

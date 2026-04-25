@@ -1,0 +1,95 @@
+/* Fond global avec dégradé bleu profond */
+.stApp {
+    background: linear-gradient(135deg, #020617 0%, #1e3a8a 100%);
+    color: #e2e8f0;
+}
+
+/* Cadre transparent (Glassmorphism) */
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Effet de mouvement au survol (Hover) */
+.glass-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Titres stylisés bleu néon */
+
+ .neon-title {
+    text-align: center;
+    /* Utilisation de clamp pour une taille dynamique mais toujours grande */
+    font-size: clamp(3rem, 8vw, 7rem) !important; 
+    font-weight: 800 !important; /* Très gras */
+    text-transform: uppercase;    /* Majuscules pour l'impact */
+    letter-spacing: 2px;         /* Espacement pour plus d'élégance */
+    
+    /* Dégradé plus brillant */
+    background: linear-gradient(to right,white, #2c52bb, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-bottom: 50px !important;
+    
+    /* Effet néon plus intense */
+    filter: drop-shadow(0 0 15px rgba(96, 165, 250, 0.7));
+    line-height: 1.1 !important;
+}
+
+
+
+/* Boutons modernes */
+.stButton>button {
+    width: 100%;
+    background: linear-gradient(90deg, #1d4ed8, #3b82f6);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.7);
+    transform: translateY(-2px);
+}
+/* Animation fluide du background */
+@keyframes backgroundFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* On applique cette animation à la classe du background */
+.animated-bg {
+    background-size: 200% 200% !important; /* On agrandit l'image pour permettre le mouvement */
+    animation: backgroundFlow 20s ease infinite;
+}
+/* Style pour le pied de page */
+.footer {
+    text-align: center;
+    font-size: 16px;
+    color: #94a3b8; /* Gris bleuté élégant */
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+}
+
+.footer span {
+    color: #3b82f6; /* Bleu néon pour les accents */
+    font-weight: bold;
+    font-size: small;
+}
