@@ -1,7 +1,5 @@
 streamlit
 numpy
 pillow
-xgboost
-tensorflow
 scikit-learn
 joblib
