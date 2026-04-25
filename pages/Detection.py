@@ -16,7 +16,7 @@ if uploaded_file:
     image = Image.open(uploaded_file)
     
     # Affichage de l'image (sans cadre)
-    st.image(image, caption="Image à analyser", use_container_width=True)
+    st.image(image, caption="Image to analyze", use_container_width=True)
     
     # Bouton de lancement
     if st.button("start the detection"):
@@ -25,8 +25,8 @@ if uploaded_file:
             
             # Affichage du résultat (sans cadre)
             if label == "stego":
-                st.error(f" Warning : Données cachées détectées ({confidence*100:.1f}%)")
+                st.error(f" Warning : hidden data detected ({confidence*100:.1f}%)")
             elif label == "clean":
-                st.success(f"Secure : Aucune anomalie ({confidence*100:.1f}%)")
+                st.success(f"Secure : no hidden data  ({confidence*100:.1f}%)")
             else:
                 st.warning(f"Uncertain ({confidence*100:.1f}%)")
