@@ -62,15 +62,15 @@ st.markdown("""
     <div style="display: flex; justify-content: center; gap: 50px; text-align: center; flex-wrap: wrap;">
         <div>
             <span style='color: #ffffff; font-size: 30px; font-weight: bold;'>Kissoum Liticia</span><br>
-            <a href="mailto:l.kissoum@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">liticia.kissoum@nscs.dz</a>
+            <a href="mailto:l.kissoum@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">l.kissoum@enscs.edu.dz</a>
         </div>
         <div>
             <span style='color: #ffffff; font-size: 30px; font-weight: bold;'>Terfaoui Loubna</span><br>
-            <a href="mailto:l.terfaoui@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">loubna.terfaoui@nscs.dz</a>
+            <a href="mailto:l.terfaoui@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">l.terfaoui@enscs.edu.dz</a>
         </div>
         <div>
             <span style='color: #ffffff; font-size: 30px; font-weight: bold;'>Kanoun Meriem</span><br>
-            <a href="mailto:m.kanoun@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">meriem.kanoun@nscs.dz</a>
+            <a href="mailto:m.kanoun@enscs.edu.dz" style="color: #3b82f6; text-decoration: none; font-size: 20px;">m.kanoun@enscs.edu.dz</a>
         </div>
     </div>
     <p style="font-size: 20px; text-align:center; margin-top: 50px; color: #64748b; font-weight:bold;">
