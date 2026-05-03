@@ -8,10 +8,10 @@ st.set_page_config(page_title="About Us", layout="wide")
 load_css()
 
 # --- 1. LOGO EN HAUT (Centré) ---
-col_space1, col_logo, col_space2 = st.columns([1.75, 2, 1])
-with col_logo:
-    # Utilisation du logo de la National School of Cybersecurity
-    st.image("assets/logo.png", width=600, use_container_width=False)
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col2:
+    st.image("assets/logo.png", use_container_width=True)
 
 # --- 2. TITRE "About" ---
 st.markdown('<h1 class="neon-title" style="font-size: 120px; text-align: center; margin-top: 30px;">About</h1>', unsafe_allow_html=True)

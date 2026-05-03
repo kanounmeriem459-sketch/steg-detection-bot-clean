@@ -10,7 +10,7 @@ load_css()
 st.markdown('<h1 class="neon-title">Detection</h1>', unsafe_allow_html=True)
 
 # Zone d'upload (sans cadre)
-uploaded_file = st.file_uploader("choose an image to scann:", type=["png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("choose an image to scann:", type=["png"])
 
 if uploaded_file:
     image = Image.open(uploaded_file)
